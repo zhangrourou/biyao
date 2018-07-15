@@ -1,0 +1,74 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body{
+	width:100%;
+}
+body{
+    background:#f9f9f9;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,label,img{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	border:0px;
+	font-size: 12px;
+}
+i{
+	font-style: normal;
+
+}
+em, cite {
+	font-style: normal;
+	font-weight: 400;
+}
+#main{
+	width:1000px;
+	margin:0 auto;
+	
+}
+.lt{
+	float:left;	
+}
+.rt{
+	float:right;
+}
+a{
+	text-decoration:none;
+	color: #000;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.clear{
+	clear:both;
+	display:block;
+}
+.relative{
+	position: relative;
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+}
+span {
+	font-weight: 400;
+}
+table {
+	font: 12px "Microsoft YaHei","微软雅黑","宋体",Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #333;
+}
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+

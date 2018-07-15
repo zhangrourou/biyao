@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>注册页面</title>
+	 <link rel="stylesheet" href="css/base.css">
+	 <link rel="stylesheet" href="css/animate.css"/>
+	 <link rel="stylesheet" href="css/login.css">
+ </head>
+ <body>
+ 	<div id="header"></div>
+	<!--注册区域 -->
+	<div class="parent">
+		<div class="container">
+			<div class="panel">
+				<form id="form-register">
+					<div class="txt">
+						<b></b>
+						新用户注册
+					</div>
+					<div class="form-group">
+
+						<input autocomplete required minlength="3" maxlength="12" type="text" placeholder="请输入用户名" autofocus
+							   name="uname" id="uname"/>
+						<span class="msg-default hidden">用户名长度在3到12位之间</span>
+					</div>
+					<div class="form-group">
+
+						<input required type="password" minlength="6" maxlength="12" placeholder="请输入密码" name="upwd" autofocus
+							   id="upwd"/>
+						<span class="msg-default hidden">密码长度在6到12位之间</span>
+					</div>
+					<div class="form-group">
+
+						<input required type="password" minlength="6" maxlength="12" placeholder="请确认密码" name="upwdconfirm" autofocus
+							   id="upwdconfirm"/>
+						<span class="msg-default hidden">密码长度在6到12位之间</span>
+					</div>
+					<div class="form-group">
+
+						<input autocomplete required type="email" placeholder="请输入邮箱地址" name="email" id="email"/>
+						<span class="msg-default hidden">请输入合法的邮箱地址</span>
+					</div>
+					<div class="form-group">
+
+						<input id="phone" name="phone" placeholder="请输入您的手机号"
+							   pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$"
+							   required type="text"/>
+						<span class="msg-default hidden">请输入合法的手机号</span>
+					</div>
+					<div class="form-group">
+
+						<input class="regist-btn" type="button" value="提交注册信息" id="bt-register"/>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div>
+
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/login-header.js"></script>
+	<script src="js/regist.js"></script>
+
+ </body>
+</html>

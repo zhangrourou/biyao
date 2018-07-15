@@ -1,0 +1,148 @@
+/***面包屑***/
+.bread{
+    width: 1080px;
+    margin: 20px auto;
+    color: #333;
+    position: relative;
+    top: -40px;
+    font-size: 14px;
+}
+.bread>span{
+    color:gray;
+}
+/***分类栏***/
+.cateBread{
+    width:1060px;
+    height:50px;
+    margin:20px auto 0px;
+    padding-left:20px;
+    line-height: 50px;
+    background:#fff;
+    position: relative;
+    top: -30px;
+}
+.cateBread>span,.cateBread>ul>li{
+    display: inline-block;
+    font-size:16px;
+    color:gray;
+    float: left;
+}
+.cateBread>ul{
+    display: inline-block;
+    margin-left:20px;
+}
+.cateBread>ul>li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+/***类目商品列表***/
+.category-cont{
+    width:1080px;
+    margin:0 auto;
+}
+.category-cont>p{
+    font-size:24px;
+    color:#333;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    padding: 20px;
+}
+.category-cont>.category-list{
+    width:1100px;
+}
+.category-cont>.category-list>li{
+    position:relative;
+    float:left;
+    margin:0 20px 20px 0;
+}
+.category-cont>.category-list>li>a{
+    display: block;
+    position:relative;
+    width:255px;
+    height:335px;
+    background:#fff;
+    text-align: center;
+    transition: box-shadow .5s ease-in-out 0s;
+}
+.category-cont>.category-list>li>a>i{
+    display: inline-block;
+    width:255px;
+    height:255px;
+    overflow: hidden;
+}
+.category-cont>.category-list>li>a>i>img{
+    width:255px;
+    height:255px;
+    transition: transform .5s ease-in-out 0s;
+}
+.category-cont>.category-list>li>a>b{
+    position:absolute;
+    top:10px;
+    left:10px;
+    hright:42px;
+    width:42px;
+    background:#fc3332;
+    border-radius: 50%;
+    line-height: 42px;
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+}
+.category-cont>.category-list>li>a>dl{
+    height:60px;
+    margin-top:20px;
+}
+.category-cont>.category-list>li>a>dl>dt{
+    color:#333;
+    font-size:16px;
+    text-align: center;
+}
+.category-cont>.category-list>li>a>dl>dd{
+    margin-top:5px;
+    color:#f33;
+    font-size:16px;
+    text-align: center;
+}
+
+/*点击状态*/
+.category-cont>.category-list>li>a:hover{
+    box-shadow:0 1px 10px 4px rgba(0,0,0,.05);
+}
+.category-cont>.category-list>li>a:hover img{
+    transform: scale3d(1.03,1.03,1);
+}
+
+/*页码*/
+.category-page{
+    width:1080px;
+    height:60px;
+    background:#fff;
+    font-size:16px;
+
+}
+.category-page>ul{
+    float:right;
+}
+.category-page>ul>li{
+    float:left;
+    margin-top:10px;
+    margin-right: 10px;
+    border:1px solid gray;
+    border-radius: 2px;
+}
+.category-page>ul>li>a{
+    padding: 10px 20px;
+    display: inline-block;
+    color:gray;
+    font-size:13px;
+    text-align: center;
+}
+.category-page>ul>li>a:hover{
+    background:#e1e1e1;
+    color:#000;
+}
+.category-page>ul>li.active{
+    background:#e1e1e1;
+    color:#000;
+}

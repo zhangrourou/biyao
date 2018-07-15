@@ -1,0 +1,131 @@
+/***注册页面***/
+body{
+    background:#f9f9f9;
+}
+.account-main{
+    width:400px;
+    height:580px;
+    margin:0 auto;
+}
+.account-main>.account-title{
+    margin-top:30px;
+    font-size: 20px;
+    color: #523669;
+    font-weight:normal;
+}
+.account-main>.account-title>b{
+    background:url("../img/sprit_biyao.png")no-repeat;
+    background-position:0 -521px;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    margin-right:10px;
+    vertical-align:middle;
+}
+.account-main>.account-title>a{
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    color: #808080;
+    float: right;
+}
+.account-main>.account-title>.active{
+    color:#523669;
+}
+.account-main>.pwd-login>li{
+    position:relative;
+    margin-top:20px;
+}
+.account-main>.pwd-login>li>input{
+    height: 17px;
+    width: 360px;
+    padding: 11px 19px;
+    border: 1px solid #e8e8e8;
+    line-height: 17px;
+    font: 14px "Microsoft YaHei";
+    color: #999;
+    background: #fff;
+    outline: 0;
+    vertical-align: middle;
+}
+.account-main>.pwd-login>li>i{
+    position: absolute;
+    right: -315px;
+    top: 0;
+    display: none;
+    width: 300px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #F33;
+}
+
+.account-main>.pwd-login>.regist-agree>span{
+    display: inline-block;
+    margin-right: 10px;
+    color: #8a8a8a;
+    cursor: pointer;
+}
+.account-main>.pwd-login>.regist-agree>a{
+    color:#07a6df
+}
+.account-main>.pwd-login>.regist-agree>span>b{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url("../img/commonsprite.png") no-repeat -20px -80px;
+}
+.account-main>.pwd-login>.account-btn,.regist-btn{
+    height: 50px;
+    margin-top: 30px!important;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: #F49F26;
+}
+
+/***登录页面***/
+.account-main>.pwd-login>.login-auto>span{
+    display: inline-block;
+    margin-right: 10px;
+    color: #8a8a8a;
+    cursor: pointer;
+}
+.account-main>.pwd-login>.login-auto>a{
+    color:#07a6df
+}
+.account-main>.pwd-login>.login-auto>span>b{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url("../img/commonsprite.png") no-repeat 0 -80px;
+}
+.account-main>.pwd-login>.account-btn{
+    height: 50px;
+    margin-top: 30px!important;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: #F49F26;
+}
+.account-main>.biyao-caution{
+    margin-top: 20px;
+    color: #F49F26;
+    line-height: 15px;
+    font-size: 12px;
+}
+.account-main>.biyao-caution>img{
+    position: relative;
+    top: 3px;
+    left: 0;
+}

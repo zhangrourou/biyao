@@ -1,0 +1,158 @@
+
+    <div id="header">
+        <!--顶部导航条-->
+        <div class="top-nav">
+            <div class="fix">
+                <!--左边-->
+                <ul class="h-nav lt">
+                    <li><a href="index.html">首页</a></li>
+                    <span>|</span>
+                    <li><a href="#">平台政策</a></li>
+                    <span>|</span>
+                    <li><a href="#">商家入驻</a></li>
+                </ul>
+                <!--右边-->
+                <ul class="h-user rt">
+                    <!--登录注册-->
+                    <li class="loginList" >
+                        <a href="login.html" id="loginBtn" class="user-login">登录</a>
+                        <a href="regist.html" id="registBtn">注册</a>
+                        <span>|</span>
+                    </li>
+                    <!--已登录-->
+                   <li class="welcomeList" >
+                        <a href="javascript:;">Welcome
+                            <span id="uname"></span>
+                            <img class="pic_img" style="position:relative;right:-5px;" src="img/categorydown.png" alt="">
+                        </a>
+                        <span>|</span>
+                        <ul id="wel-show">
+                            <i></i>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">个人中心</a></li>
+                            <li><a id="btnSignout" href="javascript:;">退出登录</a></li>
+                        </ul>
+                    </li>
+                    <!--下载必要APP-->
+                    <li class="user-app">
+                        <a href="#">下载必要APP</a>
+                        <span>|</span>
+                        <dl id="app-show">
+                            <dt>
+                                <img src="img/triangle.png" alt="">
+                            </dt>
+                            <dd class="d2">
+                                <img class="img1" src="img/applogo.png" alt="">
+                                <p>买大牌制造商产品</p>
+                                <p>上必要</p>
+                                <img class="img2" src="img/app.png" alt="">
+                            </dd>
+                        </dl>
+                    </li>
+                    <!--消息中心-->
+                    <li class="user-msg">
+                        <img class="icon_img" src="img/msgcenter.png" alt="">
+                        <a href="#">消息中心</a>
+                        <span class="unread">0</span>
+                        <span>|</span>
+                    </li>
+                    <!--客户服务-->
+                    <li class="user-server">
+                        <a href="#">客户服务</a>
+                        <img class="pic_img" src="img/categorydown.png" alt="">
+                        <ul id="server-show">
+                            <i></i>
+                            <li><a href="#">我的客服</a></li>
+                        </ul>
+                    </li>
+                    <!--购物车-->
+                    <li class="user-shopCar">
+                        <img class="icon_img" src="img/shopcar.png" alt="">
+                        <a href="#">购物车</a>
+                        <span class="unread">0</span>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+
+        </div>
+        <!--logo/搜索/导航-->
+        <div class="nav">
+            <div class="fix">
+                <!--左边：logo-->
+                <a class="logoBg lt" href="index.html"></a>
+                <!--右边：搜索-->
+                <!--<div class="n-search rt">
+                    <p>
+                        <input type="text" placeholder="请输入要搜索的产品" id="searchInput">
+                        <span id="searchBtn"></span>
+                    </p>
+                    <ul>
+                        <li>杯子</li>
+                        <li>袜子</li>
+                        <li>内衣</li>
+                        <li>伞</li>
+                        <li>耳机</li>
+                        <li>电动牙刷</li>
+                        <li>毛巾</li>
+                        <li>皮带</li>
+                        <li>洗面奶</li>
+                        <li>男鞋</li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>-->
+                <div id="top-input" class="rt">
+                    <div class="input-box" class="rt">
+                        <ul id="shelper">
+                            <!-- <li title="周大福 项链">
+                              <div class="search-item" title="周大福 项链">周大福 项链</div>
+                            </li> -->
+                        </ul>
+                        <input type="text" id="txtSearch" placeholder="请输入要搜索的商品">
+                    </div>
+                    <a href="javascript:;" class="search-img" data-trigger="search">
+                        <img src="img/search.png" alt="">
+                    </a>
+                    <ul>
+                        <li>杯子</li>
+                        <li>袜子</li>
+                        <li>内衣</li>
+                        <li>伞</li>
+                        <li>耳机</li>
+                        <li>电动牙刷</li>
+                        <li>毛巾</li>
+                        <li>皮带</li>
+                        <li>洗面奶</li>
+                        <li>男鞋</li>
+                    </ul>
+                </div>
+                <!--产品导航栏-->
+                <div class="n-table">
+                    <span>
+                        <i></i>
+                        全部分类
+                    </span>
+                    <ul>
+                        <li><a href="#">精选标题</a></li>
+                        <li class="nav-tab-last"><a href="#">每日上新</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--     <script src="js/jquery-1.11.3.js"></script> -->
+    <script>
+//        /**下载必要APP**/
+//         var $appshow = $("#app-show");
+//         $appshow.hide();
+//         $(".user-app").hover(function() {
+//             $appshow.fadeToggle();
+//         });
+//        /**客户消息**/
+//        var $servershow = $("#server-show");
+//        $servershow.hide();
+//        $(".user-server").hover(function(){
+//            $servershow.fadeToggle();
+//        });
+//    </script>

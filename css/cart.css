@@ -1,0 +1,222 @@
+/********购物车********/
+.cart{
+    padding-bottom: 40px!important;
+}
+.cart>.fix{
+    width:1080px;
+}
+/***购物车标题***/
+.cart>.fix>.cart-title{
+    padding: 40px 0 10px 0;
+    border-bottom: 1px solid #d5cdda;
+}
+.cart>.fix>.cart-title>p{
+    font-size: 18px;
+    color:#523669;
+}
+/***购物列表***/
+.comment_box>.sop_table1 {
+    width: 100%;
+    line-height: 20px;
+}
+.sop_table1 th {
+    font-size: 12px;
+    font-weight: 400;
+    height: 37px;
+    color: #523669;
+}
+.pd_l10 {
+    padding-left: 10px;
+}
+/*单选框*/
+.openIcon {
+    width: 15px;
+    height: 15px;
+    background: url(../img/commonSprite.png) no-repeat 0 -80px;
+}
+.checked .openIcon {
+    background: url(../img/commonSprite.png) no-repeat -20px -80px;
+    display:none;
+}
+.mg_r10 {
+    margin-right: 10px;
+}
+.col_523{
+    color: #523669;
+}
+.none {
+    display: none;
+}
+/***购物车列表：标题***/
+.order_title {
+    line-height: 35px;
+    background-color: #EEE;
+    padding-left: 10px;
+}
+.col_666 {
+    color: #666;
+}
+.shoppingBox a{
+    font-size: 12px;
+}
+/***购物车列表：商品***/
+.sop_table1 {
+    width: 100%;
+    line-height: 20px;
+}
+.bg_fff {
+    background: #fff;
+}
+.sop_table1 td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+.sop_img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.pd_l10 {
+    padding-left: 10px;
+}
+.ff6600 {
+    color: #f49f26;
+}
+.col_999 {
+    color: #999!important;
+}
+.mg_t5 {
+    margin-top: 5px!important;
+}
+.w300 {
+    width: 300px;
+}
+.escp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/****添加或减少***/
+.sizeZero {
+    font-size: 0;
+}
+.minus {
+    background: url(../img/commonSprite.png) no-repeat 5px -40px;
+    border: 1px solid #ccc;
+    border-right: 0;
+}
+.plus {
+    background: url(../img/commonSprite.png) no-repeat -16px -40px;
+    border: 1px solid #ccc;
+    border-left: 0;
+}
+.sign, .signre {
+    width: 27px;
+    height: 30px;
+}
+.inpCom {
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 4px;
+    background-color: #fff;
+    color: #523669;
+}
+.w40 {
+    width: 40px;
+}
+.t_c {
+    text-align: center;
+}
+.col_b76 {
+    color: #b768a5;
+}
+
+.sop_table1 strong {
+    font-weight: 400;
+}
+/*删除*/
+.a_delete {
+    width: 12px;
+    height: 12px;
+    background: url(../img/a_delete.png) -10px -32px no-repeat;
+    display: block;
+}
+.link_09c {
+    color: #09c;
+}
+/********全选********/
+.pro_total_box{
+    position: relative;
+    background: #fff;
+    padding-bottom: 10px!important;
+    padding-top: 10px!important;
+}
+.pro_total{
+    line-height: 30px;
+    padding:0 10px 0 10px;
+}
+.pro_total>.pro_operate{
+    font-size:13px;
+}
+.pro_delete{
+    color: #07a6df;
+    padding: 0 10px 0 10px;
+}
+.pro_price{
+    font-size: 14px;
+    color: #666;
+    margin-right: 30px;
+}
+.pro_price>span{
+    color: #f49f26;
+    font-size: 14px;
+}
+.pro_count{
+    font-size: 14px;
+    color: #666;
+    margin-right:30px;
+    line-height: 30px;
+}
+.pro_count>em{
+    color: #f49f26;
+}
+/********继续购物、结算********/
+.tallyBox {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #d5cdda;
+    background-color: #eeecef;
+    padding-left: 10px;
+}
+.goonShopping {
+    width: 100px;
+    height: 33px;
+    background: #724A88;
+    line-height: 33px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+.js_btn {
+    width: 85px;
+    height: 33px;
+    line-height: 33px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background: #f49f26;
+}
+.tallyBTnPos {
+    float: right;
+    margin: 10px 10px 0 30px;
+}
+.f20 {
+    font-size: 20px;
+}
+.tallyBox p {
+    color: #666;
+    height: 48px;
+    float: right;
+}
